@@ -1,0 +1,30 @@
+{
+    "name": "ninja/custom-field-example",
+    "description": "Example for custom fields in plugin",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ninja Army (Joschi Mehta)"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/administration": "*",
+        "shopware/storefront": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "NINJA\\CustomFieldExample\\CustomFieldExample",
+        "copyright": "(c) Ninja Army",
+        "label": {
+            "de-DE": "Custom Field Beispiel",
+            "en-GB": "CustomCustom Field Example"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NINJA\\CustomFieldExample\\": "src/"
+        }
+    }
+}
